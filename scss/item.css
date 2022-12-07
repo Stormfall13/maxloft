@@ -1,6 +1,7 @@
 .about__title p,
 .prod__title p,
-.edge__title p {
+.edge__title p,
+.contact__title p {
   font-family: "Impact" !important;
   font-style: normal !important;
   font-weight: 400 !important;
@@ -20,10 +21,15 @@
   font-size: 68px;
 }
 
+#contact .contact__title {
+  font-size: 68px;
+}
+
 @media (max-width: 580px) {
   .about__title,
 .prod__title,
-.edge__title p {
+.edge__title,
+.contact__title p {
     font-size: 35px !important;
     margin: 25px 0 !important;
   }
