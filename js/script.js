@@ -68,7 +68,7 @@ btnForm.addEventListener("click", function(){
 });
 
 
-const popup = document.querySelector('#popup__form')
+const popup = document.querySelector('#popup')
 const btnOpen = document.querySelectorAll('.btn')
 const closePopup = document.querySelector('.close__popup')
 
