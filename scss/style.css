@@ -40,28 +40,16 @@ li {
   opacity: 1;
   transition: 2s;
 }
-.banner p {
-  font-family: var(--font-first);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 120px;
-  line-height: 146px;
-  color: transparent;
-  -webkit-background-clip: text;
-  background-clip: text;
-  background-image: linear-gradient(to right, var(--first-color) 50%, #FFFFFF 50%);
-  padding: 20px 0;
-  position: relative;
+.banner .logo {
+  max-width: 400px;
+  margin: 0 auto;
+  overflow: hidden;
 }
-.banner p::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 10px;
+.banner .logo img {
   width: 100%;
-  background: linear-gradient(to right, var(--first-color) 67%, #fff 0%);
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 @media (max-width: 600px) {
