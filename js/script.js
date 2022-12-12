@@ -18,15 +18,22 @@ closeBtn.addEventListener("click", function(){
     setTimeout(zIndex, 900);
 });
 
-for (linkM of linkMenu){
-    linkM.addEventListener("click", function(){
-        menuUl.style.transform = 'translate(100vw)';
-        function zIndex(){
-            MainMenu.style.zIndex = '';
-        }
-        setTimeout(zIndex, 900); 
-    })
+
+
+if (screen.width < 991){
+    for (linkM of linkMenu){
+        linkM.addEventListener("click", function(){
+            menuUl.style.transform = 'translate(100vw)';
+            function zIndex(){
+                MainMenu.style.zIndex = '';
+            }
+            setTimeout(zIndex, 900); 
+        })
+    } 
 }
+
+
+
 
 const swiper = new Swiper('.swiper', {
 direction: 'horizontal',
