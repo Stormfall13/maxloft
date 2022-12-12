@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="scss/swiper-bundle.css">
 <link rel="stylesheet" href="scss/swiper-bundle.min.css">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
-<title>MAXLOFT</title>
+<title>Мебельный</title>
 </head>
 <body>
 
@@ -127,7 +127,7 @@
             <p>Шкафы</p>
         </div>
     </div>
-    <a href="#" class="btn">Подробнее</a>
+    <a href="catalog_home.html" class="btn">Подробнее</a>
 </section>
 
 <section id="prod">
@@ -168,7 +168,7 @@
             <p>Бары</p>
         </div>
     </div>
-    <a href="#" class="btn">Подробнее</a>
+    <a href="catalog_busnes.html" class="btn">Подробнее</a>
 </section>
 
 <section id="edge">
@@ -344,8 +344,8 @@
             <p class="second__title" style="display: none;"><span>Спасибо</span> за ваш заказ</p>
             <div class="form">
                 <input type="text" class="input" style="display: block;" placeholder="Ваше имя">
-                <input type="text" class="input" style="display: block;" placeholder="Ваш телефон">
-                <input type="text" class="input" style="display: block;" placeholder="E-mail">
+                <input type="tel" class="input" style="display: block;" placeholder="Ваш телефон">
+                <input type="email" class="input" style="display: block;" placeholder="Ваш email">
                 <textarea class="input" style="display: block;" placeholder="Комментарий"></textarea>
                 <button class="btn__valid">Оставить заявку</button>
             </div>
@@ -376,24 +376,56 @@
     </div>
 </div>
 
+<div id="popup__catalog" style="display: none;">
+    <div class="container__form">
+        <div class="close__popup-catalog">
+            <img src="img/close.png" alt="">
+        </div>
+        <p class="title__catalog">Заказать</p>
+            
+        <p class="second__title-catalog"><span>Спасибо</span> за ваш заказ</p>
+        <div class="form">
+            <input type="text" class="input__catalog" placeholder="Ваше имя">
+            <input type="tel" class="input__catalog" placeholder="Ваш телефон">
+            <input type="email" class="input__catalog value" placeholder="E-mail">
+            <input type="text" class="input__catalog cena" placeholder="Комментарий">
+            <button class="btn__valid-catalog">Оставить заявку</button>
+        </div>
+        <div class="valid__catalog">
+            <div class="valid__title">В самое ближайшее время мы свяжемся с 
+                Вами и обсудим заказ!</div>
+            <div class="text">С уважением, команда <span>ILOFT</span></div>
+        </div>
+        
+    </div> 
+</div>
+
+
+
 <div id="control__panel">
     <div class="wrapper">
         <div class="wrapper__title">Палитры</div>
         <div class="color__wrapp">
-            <div class="black">
+            <div class="main">
                 <div class="number">№1</div>
                 <span></span>
                 <span></span>
-                <span></span>
+                <span></span> 
             </div>
-            <div class="second">
+            <div class="black">
                 <div class="number">№2</div>
                 <span></span>
                 <span></span>
                 <span></span>
             </div>
-            <div class="strong">
+            <div class="second">
                 <div class="number">№3</div>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="strong">
+                <div class="number">№4</div>
                 <span></span>
                 <span></span>
                 <span></span>
