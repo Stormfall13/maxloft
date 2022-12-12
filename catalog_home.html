@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" href="scss/style.css">
+<link rel="stylesheet" href="scss/item.css">
+<link rel="stylesheet" href="scss/swiper-bundle.css">
+<link rel="stylesheet" href="scss/swiper-bundle.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+<title>Мебель для дома</title>
+</head>
+<body>
+
+
+<div class="banner">
+    <p>MAXLOFT</p>
+</div>
+
+<header id="header__catalog">
+    <div class="logo">
+        <a href="index.html">
+            <img src="img/logo.jpg" alt="">
+        </a>
+    </div>
+    <div class="wrapp__nav">
+        <div class="burger__icon">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div> 
+        <div class="wrapp__nav" style="display: none;">
+            <div class="burger__icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div> 
+            <nav class="main__menu">
+                
+                <ul class="menu__ul">
+                    <div class="close__btn">
+                        <img src="img/close.png" alt="">
+                    </div>
+                    <li><a href="#about" class="link__menu">О компании</a></li>
+                    <li><a href="#prod" class="link__menu">Каталог</a></li>
+                    <li><a href="#edge" class="link__menu">Преимущества</a></li>
+                    <li><a href="#contact" class="link__menu">Контакты</a></li>
+                </ul>
+            </nav>  
+        </div> 
+</header>
+
+<section id="catalog__home">
+        <div class="wrapp">
+            <div class="wrapp__item item__popup">
+                <div class="wrapp__img">
+                    <img src="img/x1.png" alt="">
+                </div>
+                <div class="wrapp__text">
+                    <p>Кровать FATASKAPNUM</p>
+                    <p>120 000 тг</p>
+                </div>
+                <div class="btn__catalog">Заказать</div>
+            </div> 
+
+            <div class="wrapp__item item__popup">
+                <div class="wrapp__img">
+                    <img src="img/x2.png" alt="">
+                </div>
+                <div class="wrapp__text">
+                    <p>Кровать SVEFNPUNKA</p>
+                    <p>90 000 тг</p>
+                </div>
+                <div class="btn__catalog">Заказать</div>
+            </div> 
+
+            <div class="wrapp__item item__popup">
+                <div class="wrapp__img">
+                    <img src="img/x3.png" alt="">
+                </div>
+                <div class="wrapp__text">
+                    <p>Комод KASSI</p>
+                    <p>70 000 тг</p>
+                </div>
+                <div class="btn__catalog">Заказать</div>
+            </div> 
+
+            <div class="wrapp__item item__popup">
+                <div class="wrapp__img">
+                    <img src="img/x1.png" alt="">
+                </div>
+                <div class="wrapp__text">
+                    <p>Кровать FATASKAPNUM</p>
+                    <p>120 000 тг</p>
+                </div>
+                <div class="btn__catalog">Заказать</div>
+            </div> 
+
+            <div class="wrapp__item item__popup">
+                <div class="wrapp__img">
+                    <img src="img/x2.png" alt="">
+                </div>
+                <div class="wrapp__text">
+                    <p>Кровать SVEFNPUNKA</p>
+                    <p>90 000 тг</p>
+                </div>
+                <div class="btn__catalog">Заказать</div>
+            </div> 
+
+            <div class="wrapp__item item__popup">
+                <div class="wrapp__img">
+                    <img src="img/x3.png" alt="">
+                </div>
+                <div class="wrapp__text">
+                    <p>Комод KASSI</p>
+                    <p>70 000 тг</p>
+                </div>
+                <div class="btn__catalog">Заказать</div>
+            </div> 
+        </div>
+</section>
+
+
+<footer id="footer">
+    <div class="footer__logo">
+        <img src="img/logo.jpg" alt="">
+    </div>
+    <a href="#header__catalog" class="arrow__up">
+        <img src="img/up.png" alt="">
+    </a>
+</footer>
+
+
+
+<div id="popup" style="display: none;">
+    <div id="popup__form">
+        <div class="left__panel">
+            <div class="form__logo">
+                <img src="img/logo.jpg" alt="">
+            </div>
+            <div class="form__adress">
+                Республика Казахстан, г. Нур-Султан, Ул. Жубанова 34/1
+            </div>
+        </div>
+        <div class="container__form">
+            <div class="close__popup">
+                <img src="img/close.png" alt="">
+            </div>
+            <p class="title">Заполните форму </br>
+                <span>и мы свяжемся с вами</span></p>
+                
+            <p class="second__title" style="display: none;"><span>Спасибо</span> за ваш заказ</p>
+            <div class="form">
+                <input type="text" class="input" style="display: block;" placeholder="Ваше имя">
+                <input type="text" class="input" style="display: block;" placeholder="Ваш телефон">
+                <input type="text" class="input" style="display: block;" placeholder="E-mail">
+                <textarea class="input" style="display: block;" placeholder="Комментарий"></textarea>
+                <button class="btn__valid">Оставить заявку</button>
+            </div>
+            <div class="valid" style="display: none;">
+                <div class="valid__title">В самое ближайшее время мы свяжемся с 
+                    Вами и обсудим заказ!</div>
+                <div class="text">С уважением, команда <span>ILOFT</span></div>
+            </div>
+            
+            <div class="contact__form">
+                <div class="social__form">
+                    <a href="#"><img src="img/tg.png" alt=""></a>
+                    <a href="#"><img src="img/vk.png" alt=""></a>
+                </div>
+                <div class="contact">
+                    <div class="email">
+                        <span>email:</span>
+                        <a href="#"> iloftkz2021@gmail.com</a>
+                    </div>
+                    <div class="telephone">
+                        <span>тел:</span>
+                        <a href="#">+7 (707) 889-98-50</a>
+                    </div> 
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+<div id="control__panel">
+    <div class="wrapper">
+        <div class="wrapper__title">Палитры</div>
+        <div class="color__wrapp">
+            <div class="main">
+                <div class="number">№1</div>
+                <span></span>
+                <span></span>
+                <span></span> 
+            </div>
+            <div class="black">
+                <div class="number">№2</div>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="second">
+                <div class="number">№3</div>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="strong">
+                <div class="number">№4</div>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <div class="wrapp__btn">
+        <div class="btn__left">
+            <img src="img/l.png" alt="">
+        </div>
+        <div class="btn__right">
+            <img src="img/r.png" alt="">
+        </div>
+    </div>
+</div>
+
+
+<div id="popup__catalog">
+    <div class="container__form">
+        <div class="close__popup-catalog">
+            <img src="img/close.png" alt="">
+        </div>
+        <p class="title__catalog">Заказать</p>
+            
+        <p class="second__title-catalog"><span>Спасибо</span> за ваш заказ</p>
+        <div class="form">
+            <input type="text" class="input__catalog" placeholder="Ваше имя">
+            <input type="tel" class="input__catalog" placeholder="Ваш телефон">
+            <input type="email" class="input__catalog value" placeholder="E-mail">
+            <input type="text" class="input__catalog cena" placeholder="Комментарий">
+            <button class="btn__valid-catalog">Оставить заявку</button>
+        </div>
+        <div class="valid__catalog">
+            <div class="valid__title">В самое ближайшее время мы свяжемся с 
+                Вами и обсудим заказ!</div>
+            <div class="text">С уважением, команда <span>ILOFT</span></div>
+        </div>
+        
+    </div> 
+</div>
+
+
+<script src="js/swiper-bundle.js"></script>
+<script src="js/swiper-bundle.min.js"></script>
+<script src="js/script.js"></script>
+<script src="js/catalog.js"></script>
+</body>
+</html>
